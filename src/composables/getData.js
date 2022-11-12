@@ -18,5 +18,7 @@ export const useGetData = () => {
     return{
         getData,
         data,
+        loading,
+        error,
     }
 };
