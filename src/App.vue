@@ -10,10 +10,11 @@ import HelloWorld from './components/HelloWorld.vue'
         <img src="@/assets/logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
         Poke Api
       </router-link>
-      <div>
-        <RouterLink class="me-2" to="/">Home</RouterLink>
-        <RouterLink class="me-2" to="/about">About</RouterLink>
-        <RouterLink class="me-2" to="/pokemons">Pokemons</RouterLink>
+      <div class="btn-group">
+        <RouterLink class="btn btn-success" to="/">Home</RouterLink>
+        <RouterLink class="btn btn-success" to="/about">About</RouterLink>
+        <RouterLink class="btn btn-success" to="/pokemons">Pokemons</RouterLink>
+        <RouterLink class="btn btn-success" to="/Favoritos">Favoritos</RouterLink>
       </div>
     </div>
   </nav>
